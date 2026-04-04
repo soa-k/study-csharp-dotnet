@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="Vocabulary/Vocabulary.csproj" />
+  <Project Path="Vocabulary/Vocabulary_Namespaces_Methods_Types.csproj" />
+  <Project Path="Vocabulary_Reflection/Vocabulary_Reflection.csproj" Id="15b84da1-034e-4417-88d0-e1db4beea135" />
 </Solution>
