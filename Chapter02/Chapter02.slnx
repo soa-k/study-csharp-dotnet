@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Variables_LiteralValues/Variables_LiteralValues.csproj" Id="4b133c40-e8bb-43ab-8ad5-419a613e691e" />
   <Project Path="Vocabulary/Vocabulary_Namespaces_Methods_Types.csproj" />
   <Project Path="Vocabulary_Reflection/Vocabulary_Reflection.csproj" Id="15b84da1-034e-4417-88d0-e1db4beea135" />
 </Solution>
