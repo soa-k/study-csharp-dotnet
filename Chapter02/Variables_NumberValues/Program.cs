@@ -79,7 +79,7 @@ if (decimalValue1 + decimalValue2 == 0.3m)
     Console.WriteLine($"{decimalValue1} + {decimalValue2} equals {0.3m}");
 }
 else
-{ 
+{
     Console.WriteLine($"{decimalValue1} + {decimalValue2} does NOT equal {0.3m}, it equals {decimalValue1 + decimalValue2}");
 }//decimal은 10진수로 정확히 표현 가능, 고정소수점
 
@@ -109,7 +109,7 @@ Console.WriteLine($"{"0.0 / 0.0",-col1} | {0.0 / 0.0,col2}");
 Console.WriteLine($"{"3.0 / 0.0",-col1} | {3.0 / 0.0,col2}");
 Console.WriteLine($"{"-3.0 / 0.0",-col1} | {-3.0 / 0.0,col2}");
 Console.WriteLine($"{"3.0 / 0.0 == double.PositiveInfinity",-col1} | {3.0 / 0.0 == double.PositiveInfinity,col2}");
-Console.WriteLine($"{"-3.0 / 0.0 == double.NegativeInfinity",-col1} | { -3.0 / 0.0 == double.NegativeInfinity,col2}");
+Console.WriteLine($"{"-3.0 / 0.0 == double.NegativeInfinity",-col1} | {-3.0 / 0.0 == double.NegativeInfinity,col2}");
 Console.WriteLine($"{"0.0 / 3.0",-col1} | {0.0 / 3.0,col2}");
 Console.WriteLine($"{"0.0 / -3.0",-col1} | {0.0 / -3.0,col2}"); //부동 소수점에서는 음의 0.0도 존재, 결과는 -0.0
 Console.WriteLine($"{"0.0m / -3.0m",-col1} | {0.0m / -3.0m,col2}"); //고정 소수점에서는 음의 0.0이 존재하지 않음, 결과는 0.0
